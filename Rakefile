@@ -1,4 +1,4 @@
-PROJECT_NAME = "CedarShortcuts"
+PROJECT_NAME = "CedarShortcutsForKiwi"
 CONFIGURATION = "Release"
 SDK_VERSION = "6.0"
 

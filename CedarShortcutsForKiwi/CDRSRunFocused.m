@@ -68,7 +68,12 @@
 }
 
 - (long long)_currentLineNumber {
-    return [[CDRSXcode currentEditor] _currentOneBasedLineNubmer];
+    id currentEditor = [CDRSXcode currentEditor];
+    if ([currentEditor respondsToSelector:@selector(_currentOneBasedLineNumber)]) {
+        return [currentEditor _currentOneBasedLineNumber];
+    } else {
+        return [currentEditor _currentOneBasedLineNubmer];
+    }
 }
 
 #pragma mark - Last focused run path

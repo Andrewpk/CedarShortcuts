@@ -31,5 +31,5 @@ A fork of CedarShortcuts to integrate with Kiwi.
 You can use OS X keyboard preferences pane to override shortcut for any menu item
 (System Preferences > Keyboard > Keyboard Shortcuts > Application Shortcuts > '+').
 
-(Plugin can be uninstalled by removing `CedarShortcuts.xcplugin` from
+(Plugin can be uninstalled by removing `CedarShortcutsForKiwi.xcplugin` from
 `~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins`)
